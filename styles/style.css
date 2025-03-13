@@ -1,0 +1,44 @@
+:root{
+    --brandcolor1:#006DE1;
+    --brandcolor2:#4F20D2;
+    --brandcolor3:#FFD900;
+    --white1:#ffffff;
+    --grey1:#f7f7f7;
+    --archivo:"Archivo", sans-serif;
+    --archivoblack:"Archivo Black", sans-serif;
+    --archivonarrow:"Archivo Narrow", sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color:var(--grey1) ;
+}
+.cont{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white1);
+    padding: 25px 50px;
+}
+
+.logo{
+   height: 50px; 
+}
+
+.primary-btn{
+    font-family:var(--archivo);
+}
